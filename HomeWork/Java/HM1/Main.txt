@@ -1,0 +1,39 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Person person1 = new Person("Иван", 17, 169, 76, 1000);
+        Person person2 = new Person("Александр", 75, 184, 78, 2000);
+        Person person3 = new Person("Василий", 34, 178, 90, 3000);
+
+        person1.name = "Иван";
+        person2.name = "Александр";
+        person3.name = "Василий";
+
+        person1.age = 17;
+        person2.age = 75;
+        person3.age = 34;
+
+        person1.height = 169;
+        person2.height = 184;
+        person3.height = 178;
+
+        person1.weight = 76;
+        person2.weight = 78;
+        person3.weight = 90;
+
+        person1.mony = 1000;
+        person2.mony = 2000;
+        person3.mony = 3000;
+
+        System.out.println(person1.name + ": возраст " + person1.age + "; рост " + person1.height + "; вес " + person1.weight + ";");
+        person1.work();
+        System.out.println(person2.name + ": возраст " + person2.age + "; рост " + person2.height + "; вес " + person2.weight + ";");
+        person2.work();
+        System.out.println(person3.name + ": возраст " + person3.age + "; рост " + person3.height + "; вес " + person3.weight + ";");
+        person3.work();
+    
+
+
+
+    }
+}

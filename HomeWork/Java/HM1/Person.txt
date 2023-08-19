@@ -1,0 +1,33 @@
+public class Person {
+
+
+    String name;
+
+    int age;
+
+    int height;
+
+    int weight;
+
+    int mony;
+
+    public Person(String name, int age, int height, int weight, int mony) {
+
+        this.name = name;
+        this.age = age;
+        this.height = height;
+        this.weight = weight;
+        this.mony = mony;
+    }
+
+    public void work() {
+        if (age >= 18 && age <= 70) {
+            System.out.println("Нужно работать");
+        } else {
+            System.out.println("Можно и отдыхать");
+        }
+    }
+
+
+
+}
